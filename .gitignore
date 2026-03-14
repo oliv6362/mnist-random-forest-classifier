@@ -4,9 +4,16 @@
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
 .venv/
 venv/
+env/
+
+# Conda
+.conda/
+conda-meta/
 
 # Jupyter
 .ipynb_checkpoints/
